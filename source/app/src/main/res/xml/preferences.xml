@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/pref_pop_tr_default"
+        android:entries="@array/pref_pop_tr_list_titles"
+        android:entryValues="@array/pref_pop_tr_list_values"
+        android:key="@string/pref_pop_tr_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_pop_tr_label" />
+</PreferenceScreen>

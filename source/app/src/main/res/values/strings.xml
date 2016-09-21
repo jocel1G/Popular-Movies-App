@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android_themoviedb</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_details">MovieDetailsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">Settings</string>
+    <!--Preference popular or top rated request-->
+    <string name="pref_pop_tr_label">Popular or top rated</string>
+    <string name="pref_pop_tr_key" translatable="false">req_pop_tr</string>
+    <string-array name="pref_pop_tr_list_titles">
+        <item>Popular</item>
+        <item>Top rated</item>
+    </string-array>
+    <string-array name="pref_pop_tr_list_values">
+        <item>popular</item>
+        <item>top_rated</item>
+    </string-array>
+    <string name="pref_pop_tr_default" translatable="false">popular</string>
+
+</resources>
